@@ -16,6 +16,7 @@ O Front-End foi desenvolvido utilizando o React JS.
 
 Nesse projeto pude ter a experiência de liderar uma equipe trabalhando com a metodologia do Scrum, num total de 3 Sprints. Além da parte técnica com uso do Context API, React Router Dom com rotas privadas, criação de hooks, autenticação com JWT além da experiência de trabalhar em equipe, utilizando o conceito do GitFlow.
 
+
 ## ❗ Tecnologias Utilizadas
 
   <div style="display: inline_block">
