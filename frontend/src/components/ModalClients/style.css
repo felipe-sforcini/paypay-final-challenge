@@ -1,0 +1,131 @@
+.modal__cadastro {
+    position: relative;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+.hidden {
+    display: none;
+}
+
+.title--modal {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.error-general {
+    color: #971d1d;
+    justify-self: center;
+}
+
+.center {
+    min-height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-modal {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal__close {
+    cursor: pointer;
+}
+
+.modal__cadastro h1 {
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #3F3F55;
+}
+.modal__cadastro label {
+    font-family: var(--font-nunito) !important;
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    color: #3F3F55 !important;
+    margin-top: 0.8rem;
+}
+
+.modal__cadastro .grow {
+    flex-grow: 1;
+}
+.modal__cadastro .width100 {
+    width: 100%;
+}
+.modal__cadastro .half-input {
+    display: flex;
+    width: 100%;
+    gap: 2.4rem;
+}
+.modal__cadastro .input div {
+    height: 3rem !important;
+}
+
+.modal__cadastro .buttons {
+    margin-top: 1.7rem;
+    display: flex;
+    width: 100%;
+    gap: 2.4rem;
+}
+.buttons .btn-cancel {
+    border-radius: 1rem;
+    border: 1px solid #DEDEE9;
+    background-color: #F8F8F9;
+    padding: 0.4rem 5rem;
+    font-family: var(--font-nunito);
+    font-size: 1.1rem;
+    color: #0E8750;
+    text-transform: none;
+}
+.buttons .btn-cancel:hover {
+    border: 1px solid #DEDEE9;
+    background-color: #dfdfdf;
+}
+.buttons .btn-submit {
+    border-radius: 1rem;
+    background: #DA0175;
+    padding: 0.4rem 5rem;
+    font-family: var(--font-nunito);
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #F8F8F9;
+    text-transform: none;
+}
+.buttons .btn-submit:hover {
+    background: #aa005a;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+@media screen and (max-width: 1440px) {
+    .modal__clientsRespon {
+        width: 40% !important;
+    }
+    
+}
+
+@media screen and (max-width: 1366px) {
+
+    .modal__cadastro h1 {
+        font-size: 1.4rem;
+
+    }
+    .modal__cadastro label {
+        font-size: 0.9rem !important;
+        margin-top: 0.6rem;
+    }
+
+    .modal__cadastro .input div {
+        height: 2.5rem !important;
+    }
+
+    .modal__cadastro .buttons {
+        margin-top: 1rem;
+    }
+
+}

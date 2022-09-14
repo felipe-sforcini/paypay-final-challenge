@@ -1,0 +1,5 @@
+.main-resume, .main-finance, .main-clients {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}

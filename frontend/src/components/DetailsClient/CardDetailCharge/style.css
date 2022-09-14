@@ -1,0 +1,10 @@
+  .header-detail .btn-submit:hover {
+    background: #aa005a;
+  }
+
+  .header-detail-title {
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--color-dark-gray3);
+  }

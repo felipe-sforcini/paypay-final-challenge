@@ -1,0 +1,140 @@
+.modal--charge .modal_title{
+    display: flex;
+    align-items: center;
+}
+
+.cursor {
+    width: 25%;
+}
+.modal--charge .modal_title h1{
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--color-dark-gray3);
+}
+.modal--charge .modal_title{
+    margin-bottom: 1rem;
+}
+.vencimento-valor{
+    display: flex;
+    justify-content: space-between;
+}
+.modal--charge{
+    width: 100%;
+}
+.modal--charge .vencimento-valor div input[type="date"]{
+    width: 14rem;
+}
+.vencimento-valor div label, .modal--charge label, .charge-status legend{
+    margin-top: 0.6rem;
+    font-family: var(--font-nunito);
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--color-dark-gray3)
+}
+.modal--charge .charge-status{
+    all: unset;
+    margin-top: 0.8rem;
+    width: 100%;
+    gap: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+}
+.modal--charge .cobranca-paga, .modal--charge .cobranca-pendente{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    gap: 0.8rem;
+    width: 100%;
+    background-color: var(--color-light-gray);
+    height: 3.5rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+    font-family: var(--font-nunito);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--color-dark-gray3)
+}
+.modal-buttons{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    padding-left: 1rem;
+    justify-content: center;
+}
+.modal-buttons .btn-cancel{
+    cursor: pointer;
+    background-color: var(--color-light-gray2);
+    padding: 0.4rem 5rem;
+    border: 1px solid #DEDEE9;
+    text-transform: none;
+    border-radius: 0.8rem;
+    font-family: var(--font-nunito);
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: var(--color-green);
+}
+.modal-buttons .btn-submit{
+    cursor: pointer;
+    background-color: var(--color-pink);
+    text-transform: none;
+    padding: 0.4rem 6rem;
+    border-radius: 0.8rem;
+    font-family: var(--font-nunito);
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: var(--color-white);
+}
+.modal-buttons .btn-submit:hover{
+    background-color: var(--color-pink);
+}
+.success{
+    background-color: #FFF;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    color: var(--color-green);
+}
+.error{
+    background-color: #FFF;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    color: var(--color-red)
+}
+div .btn_open-modal{
+    border-radius: 0.9rem;
+    background: var(--color-pink);
+    padding: 0.2rem 4rem;
+    font-family: var(--font-nunito);
+    font-weight: 400;
+    font-size: 1rem;
+    color: #F8F8F9;
+    text-transform: none;
+}
+div .btn_open-modal:hover{
+    background: var(--color-pink);
+}
+
+@media screen and (max-width: 1440px) {
+.card__charge {
+    width: 40% !important;
+}
+}
+
+@media screen and (max-width: 1366px) {
+    .modal--charge .modal_title h1{
+        font-size: 1.4rem;
+        
+    }
+    .modal--charge .modal_title{
+        margin-bottom: 0.1rem;
+    }
+
+    .modal--charge .charge-status{
+        margin-bottom: 4rem;
+    }
+    
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap');
+/* html{
+  font-size: 62.5%;
+} */
+:root {
+  --color-white: #FFF;
+  --color-green: #0E8750;
+  --color-green2: #034A2A;
+  --color-pink:  #DA0175;
+  --color-dark-gray1: #343447;
+  --color-dark-gray2: #344054;
+  --color-dark-gray3: #3F3F55;
+  --color-dark-gray4: #667085;
+  --color-dark-gray5: #747488;
+  --color-light-gray: #F0F0F5;
+  --color-light-gray2: #F8F8F9;
+  --color-red: #971D1D;
+  --color-light-red:  #FFEFEF;
+  --color-blue: #1FA7AF;
+  --color-light-blue: #EEF6F6;
+  --color-yellow: #C5A605;
+  --color-light-yellow: #FCF6DC;
+  --color-dark-neutrals: #6E6E85;
+  --color-light-neutrals: #EFF0F6;
+  --color-light-pink: #F08889;
+  --color-light-blue2: #9B9BB2;
+  --font-inter: 'Inter', sans-serif;
+  --font-nunito: 'Nunito', sans-serif; 
+  --font-montserrat: 'Montserrat', sans-serif;  
+  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.link-card {
+  font-family: var(--font-nunito);
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--color-pink); 
+  padding-top: 0.8rem;
+}
+
+.blue {
+  background-color: var( --color-light-blue);
+  color: var(--color-blue);
+}
+
+.red {
+  background-color: var(--color-light-red);
+  color: var(--color-red);
+}
+
+.yellow {
+  background-color: var(--color-light-yellow);
+  color: var(--color-yellow);
+}
+
+.container-home {
+  box-sizing: border-box;
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: #F8F8F9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-home {
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  padding: 5.5rem 0 0 0rem;
+}
+
+.section-home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.fixed {
+  position:fixed;
+  z-index: 999;
+}
+
+@media screen and (max-width: 2160px) {
+  .content-home {
+      padding: 8rem 0 0 0rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .content-home {
+    width: 90%;
+    padding: 5.5rem 0 0 0;
+}
+}
+
+@media screen and (max-width: 1366px) {
+  .content-home {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      padding: 5rem 0 0 0rem;
+  }
+  
+}
+
+
+
+
+
+

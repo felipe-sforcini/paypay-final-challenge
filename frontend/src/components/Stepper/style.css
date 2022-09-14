@@ -1,0 +1,40 @@
+.stepper h1 {
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--color-dark-gray3);
+}
+
+.stepper circle, .stepper path, .stepper .complete {
+    color: var(--color-green);
+}
+
+.stepper text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.stepper p {
+    font-family: var(--font-nunito);
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--color-dark-gray3);
+}
+
+@media screen and (max-width: 1366px) {
+
+    .stepper h1 {
+        font-size: 1.2rem;
+    }
+
+    .stepper p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    .stepper p {
+        font-size: 1rem;
+    }
+}

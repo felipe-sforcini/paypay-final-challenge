@@ -1,0 +1,70 @@
+.div-modal-dashboard {
+    position: absolute;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-white);
+    padding: 0.4rem;
+    gap: 1rem;
+    top: 4rem;
+    right: 7.3rem;
+    border-radius: 0.8rem;
+    box-shadow: 0.2rem 0.4rem 2rem 0.5rem rgba(0, 0, 0, 0.171);
+    z-index: 3;
+}
+
+.edit-user-div, .logout-div {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.arrow {
+    position: absolute;
+    border-style: solid;
+    border-width: 0.8rem;
+    border-color: transparent;
+    border-bottom-color: var(--color-white);
+    margin-top: -4.8rem;
+    margin-left: -3.5rem;
+}
+
+.edit-text, .logout-text {
+    color: var(--color-dark-gray5);
+    font-family: var(--font-nunito);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 2160px) {
+  .div-modal-dashboard {
+      top: 3.9rem;
+      right: 8.8rem;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+    .div-modal-dashboard {
+        top: 4rem;
+        right: 7.3rem;
+    }
+  }
+
+
+@media screen and (max-width: 1440px) {
+    .div-modal-dashboard {
+        top: 3.6rem;
+        right: 4.3rem;
+    }
+}
+
+
+@media screen and (max-width: 1366px) {
+    .div-modal-dashboard {
+        top: 3.2rem;
+        right: 3.8rem;
+    }    
+}

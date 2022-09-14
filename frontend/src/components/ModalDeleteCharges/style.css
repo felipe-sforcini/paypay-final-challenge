@@ -1,0 +1,54 @@
+.modal--delete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.modal__close{
+    position: absolute;
+    right: 2.5rem;
+    top: 2.5rem;
+    cursor: pointer;
+}
+.delete_alert{
+    width: 8rem;
+}
+.modal--delete p{
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #CC7800;
+    margin-bottom: 2rem;
+}
+.modal--delete .buttons-delete{
+    display:flex;
+    gap: 1.2rem;
+}
+.modal--delete .buttons-delete button{
+    background: #F2D6D0;
+    border-radius: 4px;
+    font-family: var(--font-nunito);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #AE1100;
+    text-transform: none;
+}
+.modal--delete .buttons-delete .btn-confirm{
+    background: #ACD9C5;
+    color: #034A2A;
+}
+
+.delete {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+}
+
+.title-delete {
+    text-align: center;
+}

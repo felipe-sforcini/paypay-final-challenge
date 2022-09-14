@@ -1,0 +1,135 @@
+.card-clients-home {
+    width: 95%;
+    background-color: var(--color-white);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.cursor {
+    cursor: pointer;
+    width: 15%;
+    transition: 0.2s;
+}
+
+.cursor:hover {
+    transform: scale(1.1);
+}
+
+.sort {
+    cursor: pointer;
+    width: 7%;
+}
+
+
+.client-head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.inadimplente {
+    width: 90%;
+    color: var(--color-red);
+    font-weight: 600;
+    background-color: var(--color-light-red);
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+
+.emdia {
+    width: 90%;
+    color: var(--color-blue);
+    font-weight: 600;
+    background-color: var(--color-light-blue);
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+
+.paga {
+    width: 90%;
+    color: var(--color-blue);
+    font-weight: 600;
+    background-color: var(--color-light-blue);
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+
+.vencida {
+    width: 90%;
+    color: var(--color-red);
+    font-weight: 600;
+    background-color: var(--color-light-red);
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+
+.pendente {
+    width: 90%;
+    color: var(--color-yellow);
+    font-weight: 600;
+    background-color: var(--color-light-yellow);
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.edit-div {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+}
+
+.redColor {
+    color: var(--color-red);
+}
+
+.not--Found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    gap: 1rem;
+}
+
+.title--notfound, .subtitle--notfound {
+    font-family: var(--font-montserrat);
+}
+
+.title--notfound {
+    font-size: 2rem;
+    color: var(--color-light-pink);
+}
+
+.subtitle--notfound {
+    font-size: 1.8rem;
+    color: var(--color-light-blue2);
+}
+
+
+
+
+@media screen and (max-width: 1440px) {
+    .sort {
+        width: 11%;
+    }
+
+    .cursor {
+        width: 30%;
+    }
+    
+}

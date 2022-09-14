@@ -1,0 +1,61 @@
+.card-detail-client {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: var(--color-white);
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.header-detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.charge-detail-client {
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--color-dark-gray3);
+}
+
+.header-detail .btn-edit-client {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-family: var(--font-nunito);
+    font-weight: 400;
+    color: var(--color-green);
+    text-transform: none;
+    background-color: var(--color-light-gray);
+    padding: 0.2rem 4rem;
+    border: 1px solid #DEDEE9;
+    border-radius: 0.8rem;
+}
+
+.header-detail .btn-edit-client .edit-btn {
+    filter: invert(27%) sepia(38%) saturate(4093%) hue-rotate(140deg) brightness(98%) contrast(89%);
+}
+
+.table1 {
+    width: 50%;
+}
+
+@media screen and (max-width: 1366px) {
+    .card-detail-client {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        background-color: var(--color-white);
+        padding: 2rem;
+        border-radius: 1.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 1366px) {
+  
+}

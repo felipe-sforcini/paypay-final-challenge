@@ -1,0 +1,58 @@
+.card-client {
+    width: 730px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+    padding: 0.5rem;
+    background-color: var(--color-white);
+}
+
+.content-title {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.head-client {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 0.6rem 1rem;
+    border-bottom: 1px solid var(--color-light-neutrals);
+}
+
+.title-client {
+    font-family: var(--font-montserrat);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--color-dark-gray1);
+}
+
+.qtd_client {
+    font-size: 1rem;
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    padding: 0.1rem 0.9rem;
+    border-radius: 0.5rem;
+}
+
+.link-client {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .card-client {
+        width: 530px;
+    }
+   
+}
+
+@media screen and (max-width: 1366px) {
+
+
+}
